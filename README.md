@@ -1,4 +1,5 @@
-#Core banking microservice
+# Core banking microservice 
+
 This project is a Spring boot based core banking which exposes the REST endpoint /retainBanking/getAccountBalance
 The API can only be accsessed with the below valid stuff:
 * A valid Jwt Token in the header. This Jwt token can be created by running the authentication microservice
